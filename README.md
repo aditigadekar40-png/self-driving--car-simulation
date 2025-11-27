@@ -1,4 +1,4 @@
-Short Intro
+Short Introduction
 
 This is a simple Self-Driving Car Simulation Game built using Python and Pygame.
 The player’s car (red) moves forward on the road while avoiding the blue obstacle cars.
