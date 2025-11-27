@@ -1,42 +1,21 @@
-Short Introduction
+## Theory / Background
 
-This is a simple Self-Driving Car Simulation Game built using Python and Pygame.
-The player’s car (red) moves forward on the road while avoiding the blue obstacle cars.
-If the car collides, a Game Over message is displayed.
+### Self-Driving Car Simulation
+A self-driving car simulation is a software environment that models the behavior of autonomous vehicles.
+The main purpose is to test algorithms and vehicle behavior in a controlled environment before deploying in real life.
 
- Features
+### Key Concepts
+- **Sensors and Perception:** Simulated sensors detect lanes, obstacles, and traffic signals.
+- **Path Planning:** The vehicle decides the best path to follow based on road and traffic conditions.
+- **Control Systems:** Algorithms control the vehicle’s speed, steering, and braking to follow the path safely.
+- **Obstacle Avoidance:** Detecting obstacles and taking corrective actions to avoid collisions.
 
-Smooth car movement
-Random obstacle car spawning
-Continuous road scrolling
-Collision detection
-Game Over display
-Simple graphics (road, cars, lanes)
+### Simulation Goals
+- Understand vehicle dynamics in a safe virtual environment.
+- Test lane-following and obstacle-avoidance algorithms.
+- Visualize autonomous vehicle behavior in different scenarios.
 
-Tech Used
-
-Python
-Pygame Library
-VS Code
-
-Purpose of the Project
-This mini-project demonstrates:
-
-✔ Basic game development
-✔ Obstacle detection
-✔ Collision logic
-✔ Simple AI behavior (movement + auto-car spawn)
-
-This project is good for beginner-level AI + Game Development understandin
-This project is good for beginner-level AI + Game Development understanding.
-
-
-📎 Future Improvements
-
-Add scoring system
-
-Add automatic driving AI
-
-Add sounds
-
-Add more obstacles
+### Tools & Libraries Used
+- **Python** for simulation logic.
+- **Pygame / Matplotlib / OpenCV** (depending on project) for visualization and environment modeling.
+- **NumPy** for numerical computations and data processing.
